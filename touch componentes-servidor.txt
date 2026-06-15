@@ -1,0 +1,6 @@
+Sistema operativoAl dar la orden de ejecución, el Sistema Operativo (Linux, Windows o macOS) le asigna una porción de memoria RAM y tiempo de procesamiento al entorno de ejecución de Node.js [ST04-002]. 
+Aplicación server.js Node.js toma las instrucciones escritas en JavaScript dentro de tu archivo server.js y las traduce en operaciones que la computadora física puede entender
+Node.jsA través de la instrucción app.listen(PORT), Express le solicita formalmente al Sistema Operativo que le reserve de manera exclusiva el Puerto 3000. A partir de ese segundo, cualquier paquete de datos que viaje por la red local o internet dirigido a ese puerto será canalizado directamente a tu aplicación. El servidor se queda en un estado "activo", esperando llamadas.
+PuertoEsto garantiza que quede un rastro imborrable y ordenado cronológicamente para cualquier veeduría o auditoría técnica de la aplicación.
+Logsntes de que la petición altere la base de datos, pasa obligatoriamente por el bloque middleware de Logs. Este componente extrae la fecha, la hora exacta (timestamp), 
+la dirección IP del usuario y la ruta que solicitó. De inmediato, escribe esa línea en la consola de la terminal y la concatena al final del archivo físico server.log. 
